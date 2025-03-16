@@ -1,0 +1,40 @@
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 27%, rgba(0,212,255,1) 100%);
+}
+
+/**/
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto ;
+}
+.header {
+    width: 10;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.header_logo {
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.nav {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.nav_link {
+    color: #fff;
+    text-decoration: none;
+
+    transition: color .2s linear;
+}
+.nav_link:hover {
+    color: #fce38a;
+}
